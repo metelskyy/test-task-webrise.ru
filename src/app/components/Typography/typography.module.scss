@@ -1,0 +1,108 @@
+//variants
+.title-1 {
+  font-size: 109px;
+  line-height: 109px;
+  font-weight: 700;
+}
+
+.title-2 {
+  font-size: 90px;
+  line-height: 90px;
+  font-weight: 700;
+}
+
+.title-3 {
+  font-size: 70px;
+  line-height: 70px;
+  font-weight: 700;
+}
+
+.title-4 {
+  font-size: 49px;
+  line-height: 49px;
+  font-weight: 700;
+}
+
+.title-5 {
+  font-size: 28px;
+  line-height: 33px;
+  font-weight: 700;
+}
+
+.title-6 {
+  font-size: 26px;
+  line-height: 26px;
+  font-weight: 700;
+}
+
+.subtitle-1 {
+  font-size: 24px;
+  line-height: 27px;
+  font-weight: 700;
+}
+
+.subtitle-2 {
+  font-size: 22px;
+  line-height: 33px;
+  font-weight: 700;
+}
+
+.subtitle-3 {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.subtitle-4 {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.body-1 {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.body-2 {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.body-3 {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+//fonts
+.roboto {
+  font: $font-roboto;
+}
+
+.bebas {
+  font: $font-bebas;
+}
+
+//colors
+.primary {
+  color: $color-primary-blue;
+}
+
+.white {
+  color: $color-white;
+}
+
+.gray {
+  color: rgba($color-primary-blue, 0.5);
+}
+
+.grayBlue {
+  color: $color-gray-blue;
+}
+
+.lightBlue {
+  color: $color-light-blue;
+}

@@ -1,10 +1,3 @@
-$color-white: #ffffff;
-$color-primary: #102654;
-$color-dark-blue: #030a1a;
-$color-light-blue: #103aae;
-$color-blue: #1c3374;
-$color-red: #ed0233;
-
 *,
 *:before,
 *:after {
@@ -21,4 +14,8 @@ a {
 ol,
 ul {
   list-style: none;
+}
+
+body {
+  font-family: $font-roboto;
 }
