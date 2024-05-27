@@ -3,4 +3,50 @@
   width: 100%;
   padding: 0 103px;
   margin: 0 auto;
+
+  @include lg {
+    padding: 0 45px;
+  }
+
+  @include md {
+    padding: 0 15px;
+  }
+}
+
+@mixin common-typography-styles {
+  white-space: pre-line;
+  transition: all 0.2s ease-out;
+}
+
+@mixin common-button-styles {
+  outline: none;
+  background-color: transparent;
+  transition: all 0.2s ease-out;
+  cursor: pointer;
+  padding: 21px;
+  text-align: center;
+}
+
+@mixin xl {
+  @media (max-width: #{$screen-xl}) {
+    @content;
+  }
+}
+
+@mixin lg {
+  @media (max-width: #{$screen-lg}) {
+    @content;
+  }
+}
+
+@mixin md {
+  @media (max-width: #{$screen-md}) {
+    @content;
+  }
+}
+
+@mixin xs {
+  @media (max-width: #{$screen-xs}) {
+    @content;
+  }
 }

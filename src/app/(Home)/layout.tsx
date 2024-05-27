@@ -1,8 +1,30 @@
 import type { Metadata } from 'next';
-import { Bebas_Neue, Roboto_Condensed } from 'next/font/google';
+import { Roboto_Condensed } from 'next/font/google';
+import localFont from 'next/font/local';
 import '@/styles/globals.scss';
 
-const bebasNeue = Bebas_Neue({ subsets: ['latin'], weight: '400', variable: '--font-bebas' });
+const bebasNeue = localFont({
+  src: [
+    {
+      path: '../fonts/bebas-neue/bebasneuebook.woff2',
+      weight: '300',
+      style: 'normal',
+    },
+    {
+      path: '../fonts/bebas-neue/bebasneueregular.woff2',
+      weight: '400',
+      style: 'normal',
+    },
+
+    {
+      path: '../fonts/bebas-neue/bebasneuebold.woff2',
+      weight: '700',
+      style: 'normal',
+    },
+  ],
+  variable: '--font-bebas',
+});
+
 const robotoCondensed = Roboto_Condensed({
   subsets: ['latin'],
   weight: ['300', '400', '500', '600', '700'],

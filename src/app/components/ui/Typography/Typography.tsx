@@ -17,7 +17,7 @@ type TypographyVariant =
   | 'body-2'
   | 'body-3';
 type ComponentVariant = 'span' | 'p' | 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6';
-type Color = 'primary' | 'white';
+type Color = 'primary' | 'white' | 'inherit';
 
 type Props = {
   variant?: TypographyVariant;
@@ -41,7 +41,7 @@ export const Typography = ({
   const mergedClassName = clsx(
     styles[variant],
     className,
-    font === 'bebas' ? 'bebas' : 'roboto',
+    font === 'bebas' ? styles.bebas : styles.roboto,
     styles[color],
   );
 

@@ -1,77 +1,90 @@
 //variants
 .title-1 {
+  @include common-typography-styles;
   font-size: 109px;
   line-height: 109px;
   font-weight: 700;
 }
 
 .title-2 {
+  @include common-typography-styles;
   font-size: 90px;
   line-height: 90px;
   font-weight: 700;
 }
 
 .title-3 {
+  @include common-typography-styles;
   font-size: 70px;
   line-height: 70px;
   font-weight: 700;
 }
 
 .title-4 {
+  @include common-typography-styles;
   font-size: 49px;
   line-height: 49px;
   font-weight: 700;
 }
 
 .title-5 {
+  @include common-typography-styles;
   font-size: 28px;
   line-height: 33px;
   font-weight: 700;
 }
 
 .title-6 {
+  @include common-typography-styles;
   font-size: 26px;
   line-height: 26px;
   font-weight: 700;
 }
 
 .subtitle-1 {
+  @include common-typography-styles;
   font-size: 24px;
   line-height: 27px;
   font-weight: 700;
 }
 
 .subtitle-2 {
+  @include common-typography-styles;
   font-size: 22px;
-  line-height: 33px;
+  line-height: 30px;
   font-weight: 700;
 }
 
 .subtitle-3 {
+  @include common-typography-styles;
   font-size: 20px;
   line-height: 24px;
   font-weight: 700;
 }
 
 .subtitle-4 {
+  @include common-typography-styles;
   font-size: 18px;
   line-height: 24px;
   font-weight: 400;
 }
 
 .body-1 {
+  @include common-typography-styles;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
 }
 
 .body-2 {
+  @include common-typography-styles;
   font-size: 14px;
   line-height: 24px;
   font-weight: 400;
 }
 
 .body-3 {
+  @include common-typography-styles;
   font-size: 12px;
   line-height: 18px;
   font-weight: 400;
@@ -79,11 +92,11 @@
 
 //fonts
 .roboto {
-  font: $font-roboto;
+  font-family: $font-roboto;
 }
 
 .bebas {
-  font: $font-bebas;
+  font-family: $font-bebas;
 }
 
 //colors
@@ -105,4 +118,8 @@
 
 .lightBlue {
   color: $color-light-blue;
+}
+
+.inherit {
+  color: inherit;
 }

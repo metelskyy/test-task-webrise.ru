@@ -9,4 +9,9 @@ $color-gray-blue: #495a7d;
 $font-bebas: var(--font-bebas);
 $font-roboto: var(--font-roboto);
 
-$primary-gradient: -webkit-gradient(linear, left bottom, right top, from(#003d85), to(#b80027));
+$primary-gradient: linear-gradient(to right top, #003d85, #b80027);
+
+$screen-xl: 1365px;
+$screen-lg: 1199px;
+$screen-md: 767px;
+$screen-xs: 320px;
